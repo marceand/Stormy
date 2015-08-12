@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_gradient"
+                android:id="@+id/fragment_temperature"
+                tools:context="marcel.com.stormy.ui.TemperatureFragment">
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chartHour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
